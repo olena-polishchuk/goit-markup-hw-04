@@ -3,6 +3,7 @@
   font-size: 20px;
   line-height: 1.2;
   margin-bottom: 8px;
+  margin-top: 8px;
 }
 
 .features .container {
@@ -18,4 +19,14 @@
 
 .features-item {
   width: 264px;
+}
+
+.features-icon {
+  background-color: #f4f4fd;
+  width: 264px;
+  height: 112px;
+  border-radius: 0 0 4px 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
