@@ -5,7 +5,7 @@
 
 .footer .container {
   display: flex;
-  align-items: baseline;
+  align-items: flex-start;
 }
 
 .logo-footer {
@@ -49,8 +49,10 @@
   align-items: center;
   justify-content: center;
   color: #f4f4fd;
+  transition: background-color 250ms;
 }
 
-.socials-link:hover {
+.socials-link:hover,
+.socials-link:focus {
   background-color: #31d0aa;
 }

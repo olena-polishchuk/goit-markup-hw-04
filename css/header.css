@@ -34,6 +34,7 @@
   font-weight: 500;
   color: #2e2f42;
   padding: 24px 0;
+  transition: color 250ms;
 }
 
 .main-nav-link.current::after {
@@ -54,6 +55,10 @@
   color: #404bbf;
 }
 
+.main-nav-link.current {
+  transition: color 250ms;
+}
+
 .contacts-list {
   display: flex;
   align-items: center;
@@ -64,6 +69,7 @@
   display: block;
   padding: 24px 0;
   white-space: nowrap;
+  transition: color 250ms;
 }
 
 .contacts-link:hover,
