@@ -49,6 +49,7 @@ address {
   color: #fff;
   font-weight: 500;
   letter-spacing: 0.04em;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 
 .btn-filled {

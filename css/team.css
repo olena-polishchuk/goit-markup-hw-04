@@ -17,6 +17,14 @@
   border-radius: 0 0 4px 4px;
 }
 
+.team-item:hover {
+  box-shadow:
+    0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16),
+    0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  transition-delay: 250ms;
+}
+
 .team-subtitle {
   margin-bottom: 8px;
   font-weight: 500;
